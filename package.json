@@ -1,0 +1,12 @@
+{
+  "name": "warrior-learning-vercel-supabase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "npm run build && npx serve dist -l 4173"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
